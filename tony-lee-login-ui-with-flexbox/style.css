@@ -1,0 +1,65 @@
+.fullpage{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(216, 216, 216);
+}
+
+.container{  
+    width: 40%;
+    height: 50%;
+    border-radius: 25px;
+    display: flex;
+    padding: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block; 
+    background-color: white;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+
+}
+.card {
+    order-width: 3px;
+    border-radius: 12px;
+
+}
+input[type=text] {
+    margin: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px
+
+}
+input[type=password] {
+    margin: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px
+}
+
+button {
+    border-radius: 25px;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 15px;
+    box-shadow: inset;
+}
+
+
+
+
