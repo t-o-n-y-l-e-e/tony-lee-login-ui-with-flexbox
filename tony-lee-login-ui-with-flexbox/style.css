@@ -33,7 +33,7 @@
     border-radius: 12px;
     min-width: 100%;
     min-height: 100%;
-    box-shadow: 30%;
+    box-shadow: 10px, 10px, black;
     display: flex;
     padding: center;
     text-align: center;
