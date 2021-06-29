@@ -7,6 +7,8 @@
 }
 
 .container{  
+    min-width: 350px;
+    min-height: 350px;
     width: 40%;
     height: 50%;
     border-radius: 25px;
@@ -25,22 +27,45 @@
 
 }
 .card {
-    order-width: 3px;
+
+    width: 100%;
+    height: 100%;
     border-radius: 12px;
+    min-width: 100%;
+    min-height: 100%;
+    box-shadow: 30%;
+    display: flex;
+    padding: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 input[type=text] {
     margin: 15px;
     border: none;
     border-bottom: 1px solid black;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    display: flex;
+    padding: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 
 }
 input[type=password] {
     margin: 15px;
     border: none;
     border-bottom: 1px solid black;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
 }
 
 button {
@@ -50,14 +75,16 @@ button {
     text-align: center;
     font-size: 15px;
     padding: 8px;
-    width: 200px;
+    width: 70%;
+    height: 100%;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     cursor: pointer;
     margin: 15px;
-    box-shadow: inset;
+    text-align:center
+    
 }
 
 
