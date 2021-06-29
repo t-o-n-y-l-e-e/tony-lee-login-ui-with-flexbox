@@ -1,9 +1,14 @@
+html, body {
+    margin: none;
+}
+
 .fullpage{
     height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
     background-color:rgb(216, 216, 216);
+    display: flex;
 }
 
 .container{  
@@ -19,11 +24,8 @@
     align-items: center;
     display: block; 
     background-color: white;
-    position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
+    box-shadow: 5px 5px black;
+ 
 
 }
 .card {
@@ -33,7 +35,6 @@
     border-radius: 12px;
     min-width: 100%;
     min-height: 100%;
-    box-shadow: 10px, 10px, black;
     display: flex;
     padding: center;
     text-align: center;
